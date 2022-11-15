@@ -1,0 +1,130 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(12, 12, 12);
+}
+/* HEADER SECTION */
+.header {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #dcdcdc4a;
+  text-align: center;
+  border-radius: 6px;
+  padding-bottom: 3rem;
+  outline: 3px solid #e0e0e0e6;
+}
+.header h1 {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 0.75rem;
+}
+.header p {
+  font-size: 0.88rem;
+  margin-bottom: 0.44rem;
+}
+/* main section */
+section.sticky_section {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column; /* default mobile layout design */
+}
+.col {
+  display: flex; /* flex-container for each sticky notepad */
+  justify-content: center;
+  min-width: 100%;
+  border: 0;
+  padding: 10px;
+}
+
+.notes {
+  /* textarea or sticky-notepad style */
+  max-width: 220px;
+  min-width: 250px;
+  max-height: 300px;
+  text-align: left !important;
+  padding: 0.5rem 16px;
+  border-radius: 1.5px;
+  overflow: auto;
+}
+
+.notes:focus {
+  outline-color: #ffffff85;
+}
+.notes p {
+  font-size: 0.88rem;
+}
+.notes h2 {
+  font-size: calc(18rem / 16);
+  margin: 0 0 0.56rem;
+}
+/* colors of each notepads */
+.red {
+  border: 3px solid #f05c5ce6;
+  background-color: #f7aaaae6;
+}
+.lightBlue {
+  border: 3px solid #5f9ea0e6;
+  background-color: #abeef0e6;
+}
+.purple {
+  border: 3px solid #4c0082cb;
+  background-color: #ae91c2cb;
+}
+.darkBlue {
+  border: 3px solid #0909d1d6;
+  background-color: #93adf8d6;
+}
+.yellow {
+  border: 3px solid #efbd05f0;
+  background-color: #f2dc8ff0;
+}
+.pink {
+  border: 3px solid #d87093e6;
+  background-color: #f1b5c9e6;
+}
+/* Footer section */
+.footer {
+  background-color: #e0e0e0e6;
+  text-align: center;
+  padding: 0.5rem;
+}
+/* Media Queries for responsive design */
+@media (min-width: 40em) {
+  section.sticky_section {
+    /* for small devices up e.g ipads & tablets*/
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .col {
+    min-width: 50%;
+  }
+}
+@media (min-width: 50em) {
+  .col {
+    /* for medium devices up e.g laptops */
+    min-width: 33.33%;
+  }
+  .notes {
+    max-width: 200px;
+    min-width: 230px;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 75em) {
+  /* for Large devices up e.g big laptops and desktops*/
+  .col {
+    min-width: 25%;
+  }
+}
