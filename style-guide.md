@@ -15,7 +15,7 @@ You can contribute by:
 - Adding atleast 1 new Notepads/Cards using the class named "notes" above and choose a color from the designed color classes.
 - Adding buttons in the header like from the original design.
 - Improve header section the User Interface design.
-- Suggest how we can optimize any errors or bugs you may find on Mobile & desktop layout.
+- Suggest how we can optimize any design layout errors you may find on Mobile & desktop layout.
 
 ## Colors
 
