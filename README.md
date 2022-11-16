@@ -30,3 +30,10 @@ This is a solution to the HTML 5 sticky Notes with HTML & CSS [See Practice Ques
 
 - Amina Yahaya Baba - Group one SWE Cohort 1.4
 - LinkedIn - [Amina Yahaya](https://www.linkedin.com/mwlite/in/yaminajrfrontend020297)
+
+## Contributors & collaborators
+
+-
+-
+-
+-
