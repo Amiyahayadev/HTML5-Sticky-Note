@@ -8,7 +8,7 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background: rgb(12, 12, 12);
+  background: #1b1b1b;
 }
 /* HEADER SECTION */
 .header {
@@ -55,6 +55,7 @@ section.sticky_section {
   padding: 0.5rem 16px;
   border-radius: 1.5px;
   overflow: auto;
+  resize: none;
 }
 
 .notes:focus {
@@ -130,10 +131,13 @@ section.sticky_section {
     min-width: 25%;
   }
 }
+::placeholder {
+      color: #4a4a4aeb;
+      font-weight: bold;
+    }
 /*  AMINA'S STYLES ENDS HERE*/
 
 /* IF Your're a collaborator, Add styles from this line here*/
-
 /* //////////////////////////////////////////////////*/
 /* Rachel's styles starts here */
 .rachel-note {
