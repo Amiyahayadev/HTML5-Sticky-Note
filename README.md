@@ -32,8 +32,8 @@ This is a solution to the HTML 5 sticky Notes with HTML & CSS [See Practice Ques
 - LinkedIn - [Amina Yahaya](https://www.linkedin.com/mwlite/in/yaminajrfrontend020297)
 
 ## Contributors & collaborators
-
--
--
+    Special thanks to:
+- Olaide Alabi - [Github @holayide](https://github.com/holayide)
+- Rachel Opuba - [Github @rachelopuba](https://github.com/RachelOpuba)
 -
 -
