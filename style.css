@@ -139,17 +139,9 @@ section.sticky_section {
 .rachel-note {
   background-color: #ef7474e6;
   color: white;
-  font-size: 1rem;
-  border: 2px solid white;
+  border: 3px solid white;
   transition: transform 0.5s;
 }
-
-/* .rachel textarea::placeholder {
-  font-size: 1.2rem;
-  color: white;
-  font-weight: bold;
-} */
-
 .rachel-note:hover {
   transform: rotate(-10deg) scale(1.05);
 }
