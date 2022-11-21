@@ -154,4 +154,16 @@ section.sticky_section {
 }
 
 /* Rachel's styles ends here */
+/*Rita's styles starts here*/
+.rita{
+  background-color:white;
+  border: 2px solid #4c0082cb;
+  color:#180325cb;
+  height: 100%;
+  transition: height 2s;
+}
+.rita:hover{
+  height: 200px;
+}
+/*Rita's style ends here*/
 /* //////////////////////////////////////////////////*/
