@@ -155,3 +155,61 @@ section.sticky_section {
 
 /* Rachel's styles ends here */
 /* //////////////////////////////////////////////////*/
+/* Jessica's style starts here*/
+.box{
+  position: relative;
+  width: 220px;
+  height: 175.333px; 
+  overflow: hidden;
+ margin-left: 30px;
+}
+
+.box::before
+ {
+content: '';
+position: absolute;
+top: -50%;
+left: -50%;
+width: 220px;
+height: 175.33px; 
+background: linear-gradient(0deg,transparent, #b5d0d0,#797b7c);
+transform-origin: bottom right;
+animation: animate 6s linear infinite; 
+ }
+
+ .box::after
+ {
+content: '';
+position: absolute;
+top: -50%;
+left: -50%;
+width: 220px;
+height: 175.333px;
+background: linear-gradient(0deg,transparent, #45f3ff,#45f3ff);
+transform-origin: bottom right;
+animation: animate 6s linear infinite;
+animation-delay: -3s;
+ }
+
+ @keyframes animate
+{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.Jessica-note{
+  position: absolute;
+  inset: 2px;
+  background: black;
+  z-index: 10;
+  color: white;
+  
+
+  
+}
+
