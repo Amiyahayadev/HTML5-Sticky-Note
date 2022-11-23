@@ -3,12 +3,11 @@
 ::after {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 body {
   width: 100%;
   min-height: 100vh;
-  background: #1b1b1b;
+  background: rgb(12, 12, 12);
 }
 /* HEADER SECTION */
 .header {
@@ -36,7 +35,6 @@ section.sticky_section {
   padding: 24px 0;
   display: flex;
   flex-direction: column; /* default mobile layout design */
-  row-gap: 20px;
 }
 .col {
   display: flex; /* flex-container for each sticky notepad */
@@ -55,7 +53,6 @@ section.sticky_section {
   padding: 0.5rem 16px;
   border-radius: 1.5px;
   overflow: auto;
-  resize: none;
 }
 
 .notes:focus {
@@ -131,27 +128,6 @@ section.sticky_section {
     min-width: 25%;
   }
 }
-::placeholder {
-      color: #4a4a4aeb;
-      font-weight: bold;
-    }
-/*  AMINA'S STYLES ENDS HERE*/
+/*  AMINA'S STYLES ENDS HERE*/ 
 
 /* IF Your're a collaborator, Add styles from this line here*/
-/* //////////////////////////////////////////////////*/
-/* Rachel's styles starts here */
-.rachel-note {
-  background-color: #ef7474e6;
-  color: white;
-  border: 3px solid white;
-  transition: transform 0.5s;
-}
-.rachel-note:hover {
-  transform: rotate(-10deg) scale(1.05);
-}
-.rachel-note:focus {
-  transform: none;
-}
-
-/* Rachel's styles ends here */
-/* //////////////////////////////////////////////////*/
