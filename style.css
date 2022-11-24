@@ -3,6 +3,7 @@
 ::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 body {
   width: 100%;
@@ -159,6 +160,29 @@ section.sticky_section {
     min-width: 25%;
   }
 }
-/*  AMINA'S STYLES ENDS HERE*/ 
+/*  AMINA'S STYLES ENDS HERE*/
 
 /* IF Your're a collaborator, Add styles from this line here*/
+
+/* //////////////////////////////////////////////////*/
+/* Rachel's styles starts here */
+.rachel-note {
+  background-color: #f05c5ce6;
+  color: white;
+  font-size: 1rem;
+  transform: rotate(-10deg);
+  border: 2px solid white;
+}
+
+.rachel textarea::placeholder {
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.rachel:hover {
+  transform: scale(1.05);
+}
+
+/* Rachel's styles ends here */
+/* //////////////////////////////////////////////////*/
