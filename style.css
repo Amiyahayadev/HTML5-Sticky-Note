@@ -7,29 +7,60 @@
 body {
   width: 100%;
   min-height: 100vh;
-  background: rgb(12, 12, 12);
+  background: rgb(68, 66, 66);
 }
 /* HEADER SECTION */
 .header {
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
+  margin-top: 0.625rem;
   display: flex;
   flex-direction: column;
-  background-color: #dcdcdc4a;
-  text-align: center;
-  border-radius: 6px;
-  padding-bottom: 3rem;
-  outline: 3px solid #e0e0e0e6;
+  background-color: #ffffff85;
+  border-radius: 0.625rem;
+  
 }
-.header h1 {
+/* adjust width of both h1 and paragraph */
+ h1 {
   font-size: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 0.75rem;
+  color: whitesmoke;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .header p {
   font-size: 0.88rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
   margin-bottom: 0.44rem;
+  color: whitesmoke;
+  
 }
+
+
+/*  donate button styling */
+.header button{
+  background-color: #1e90ff;
+  border: none;
+  margin-top: 0.625rem;
+  padding: 0.313rem 0.625rem 0.125rem 0.625rem;
+  border-radius: 0.313rem;
+}
+.header button:hover{
+  box-shadow: 0.063rem 0.313rem gray;
+  
+}
+/* link for donate button styling */
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* all icons */
+ img{
+  margin-top: 0.625rem;
+  height: 1.25rem;
+}
+/* header and back */
+
 /* main section */
 section.sticky_section {
   padding: 24px 0;
