@@ -3,37 +3,81 @@
 ::after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
   width: 100%;
   min-height: 100vh;
-  background: rgb(12, 12, 12);
+  background: rgb(38, 38, 38);
 }
 
 /* ------------- HEADER SECTION --------------- */
 .header {
   width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #dcdcdc4a;
-  text-align: center;
-  border-radius: 6px;
-  padding-bottom: 3rem;
-  outline: 3px solid #e0e0e0e6;
+  margin: 0 auto 2rem;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.header h1 {
+.blur {
+  border-radius: 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  position: relative;
+  background-color: transparent;
+  padding: 5px 10px;
+}
+.overlay {
+  border-radius: 0.625rem;
+  background: linear-gradient(#bbbbbb6c, #bbbbbb6c);
+  filter: blur(1px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 80px;
+}
+.heading-text {
+      text-align: center;
+}
+/* adjust width of both h1 and paragraph */
+h1 {
   font-size: 1.5rem;
-  margin-top: 3rem;
-  margin-bottom: 0.75rem;
+  color:#fff;
 }
 
 .header p {
   font-size: 0.88rem;
   margin-bottom: 0.44rem;
+  color: #fff;
 }
+
+/*  donate button styling */
+.header button {
+  background-color: #1e90ff;
+  border: none;
+  margin-top: 0.625rem;
+  padding: 0.313rem 0.625rem 0.125rem 0.625rem;
+  border-radius: 0.313rem;
+}
+.header button:hover {
+  box-shadow: 0.063rem 0.313rem gray;
+}
+/* link for donate button styling */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* all icons */
+img {
+  margin-top: 0.625rem;
+  height: 1.25rem;
+}
+/* header and back */
+
 /* main section */
 section.sticky_section {
   padding: 24px 0;
@@ -96,6 +140,8 @@ section.sticky_section {
 }
 /* Footer section */
 .footer {
+      position: relative;
+      bottom: 0;
   background-color: #e0e0e0e6;
   text-align: center;
   padding: 0.5rem;
@@ -120,10 +166,6 @@ section.sticky_section {
     max-width: 200px;
     min-width: 230px;
   }
-  .header {
-    flex-direction: row;
-    justify-content: space-evenly;
-  }
 }
 
 @media (min-width: 75em) {
@@ -132,6 +174,31 @@ section.sticky_section {
     min-width: 25%;
   }
 }
-/*  AMINA'S STYLES ENDS HERE*/ 
+/*  AMINA'S STYLES ENDS HERE*/
 
 /* IF Your're a collaborator, Add styles from this line here*/
+
+/* //////////////////////////////////////////////////*/
+/* Rachel's styles starts here */
+.rachel-note {
+  background-color: #f36666de;
+  color: white;
+  font-size: 1rem;
+  transition: transform 0.5s;
+  border: 2px solid white;
+}
+
+::placeholder {
+  /* General placeholder */
+  font-size: 0.875rem;
+  color: #4f4f4f;
+}
+
+.rachel-note:hover {
+  transform: rotate(-10deg) scale(1.05);
+}
+.rachel-note:focus {
+  transform: none;
+}
+/* Rachel's styles ends here */
+/* //////////////////////////////////////////////////*/
