@@ -13,8 +13,16 @@ body {
 }
 
 /* ------------- HEADER SECTION --------------- */
+
+/* ------------- HEADER SECTION --------------- */
 .header {
   width: 80%;
+  margin: 0 auto 2rem;
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.blur {
+  border-radius: 0.625rem;
   margin: 0 auto 2rem;
   position: relative;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -174,6 +182,10 @@ section.sticky_section {
   .notes {
     max-width: 200px;
     min-width: 230px;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
