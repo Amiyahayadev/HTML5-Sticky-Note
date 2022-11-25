@@ -4,7 +4,7 @@ This is a solution to the HTML 5 sticky Notes with HTML & CSS [See Practice Ques
 
 ### ScreenShot
 
-![](html5-stickynote_index.html.png)
+![](Screenshot-stickynote.png)
 
 ### Links
 
@@ -32,9 +32,10 @@ This is a solution to the HTML 5 sticky Notes with HTML & CSS [See Practice Ques
 - LinkedIn - [Amina Yahaya](https://www.linkedin.com/mwlite/in/yaminajrfrontend020297)
 
 ## Contributors & collaborators
-    Special thanks to:
+
 - Olaide Alabi - [Github @holayide](https://github.com/holayide)
 - Rachel Opuba - [Github @rachelopuba](https://github.com/RachelOpuba)
 - Rita Adedolapo Bamigbola - [Github @RITAADEDOAPO](https://github.com/RITAADEDOLAPO)
+- Onadeko Oluwateniola - [Github @teniolalilian ](https://github.com/teniolalilian)
 -
 -
