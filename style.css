@@ -39,12 +39,12 @@ body {
   min-height: 80px;
 }
 .heading-text {
-      text-align: center;
+  text-align: center;
 }
 /* adjust width of both h1 and paragraph */
 h1 {
   font-size: 1.5rem;
-  color:#fff;
+  color: #fff;
 }
 
 .header p {
@@ -101,6 +101,7 @@ section.sticky_section {
   padding: 0.5rem 16px;
   border-radius: 1.5px;
   overflow: auto;
+  resize: none;
 }
 
 .notes:focus {
@@ -140,8 +141,8 @@ section.sticky_section {
 }
 /* Footer section */
 .footer {
-      position: relative;
-      bottom: 0;
+  position: relative;
+  bottom: 0;
   background-color: #e0e0e0e6;
   text-align: center;
   padding: 0.5rem;
@@ -202,14 +203,14 @@ section.sticky_section {
 }
 /* Rachel's styles ends here */
 /*Rita's styles starts here*/
-.rita{
-  background-color:white;
+.rita {
+  background-color: white;
   border: 2px solid #4c0082cb;
-  color:#180325cb;
+  color: #180325cb;
   height: 100%;
   transition: height 2s;
 }
-.rita:hover{
+.rita:hover {
   height: 200px;
 }
 /*Rita's style ends here*/
