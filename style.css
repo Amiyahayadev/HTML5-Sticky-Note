@@ -36,7 +36,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 80px;
+  min-height: 100%;
 }
 .heading-text {
   text-align: center;
@@ -52,7 +52,15 @@ h1 {
   margin-bottom: 0.44rem;
   color: #fff;
 }
-
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+.donate_twitt > a,
+donate_twitt > button {
+  display: inline-block;
+  margin-right: 4px;
+}
 /*  donate button styling */
 .header button {
   background-color: #1e90ff;
