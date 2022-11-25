@@ -5,12 +5,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   width: 100%;
   min-height: 100vh;
   background: rgb(38, 38, 38);
 }
-/* HEADER SECTION */
+
+/* ------------- HEADER SECTION --------------- */
 .header {
   width: 80%;
   margin: 0 auto 2rem;
@@ -44,6 +46,7 @@ h1 {
   font-size: 1.5rem;
   color:#fff;
 }
+
 .header p {
   font-size: 0.88rem;
   margin-bottom: 0.44rem;
