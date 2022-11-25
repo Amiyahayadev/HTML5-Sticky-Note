@@ -4,12 +4,14 @@
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   width: 100%;
   min-height: 100vh;
   background: rgb(12, 12, 12);
 }
-/* HEADER SECTION */
+
+/* ------------- HEADER SECTION --------------- */
 .header {
   width: 80%;
   margin: 0 auto;
@@ -21,11 +23,13 @@ body {
   padding-bottom: 3rem;
   outline: 3px solid #e0e0e0e6;
 }
+
 .header h1 {
   font-size: 1.5rem;
   margin-top: 3rem;
   margin-bottom: 0.75rem;
 }
+
 .header p {
   font-size: 0.88rem;
   margin-bottom: 0.44rem;
